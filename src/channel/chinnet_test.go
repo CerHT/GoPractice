@@ -1,5 +1,0 @@
-package channel
-
-func test() {
-
-}
