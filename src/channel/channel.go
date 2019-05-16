@@ -2,6 +2,10 @@ package channel
 
 import "fmt"
 
+func init() {
+	fmt.Println("channel test")
+}
+
 func sum(s []int, c chan int) {
 	sum := 0
 	for _, v := range s {
